@@ -1,0 +1,240 @@
+[2022-08-20 20:52:05,226]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 20:52:05,226]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 20:55:19,437]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 20:55:19,437]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 20:56:54,048]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 20:56:54,048]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 20:57:04,497]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 20:57:04,498]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 20:57:05,099]:root: INFO:Connection is
+[2022-08-20 20:57:05,099]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 20:57:05,100]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 20:57:05,100]:root: INFO:{'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 20:57:05,825]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 20:57:05,825]:root: INFO:retriving values for logs
+[2022-08-20 20:57:05,869]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 20:57:05,871]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 20:57:05] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 20:57:51,722]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 20:57:51,722]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 20:57:51,819]:root: INFO:Connection is
+[2022-08-20 20:57:51,820]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 20:57:51,820]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 20:57:51,821]:root: INFO:{'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 20:57:52,251]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 20:57:52,251]:root: INFO:retriving values for logs
+[2022-08-20 20:57:52,289]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 20:57:52,289]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 20:57:52,290]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 20:57:52] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 20:58:36,146]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 20:58:36,146]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 20:59:10,313]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 20:59:10,313]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 20:59:10,541]:root: INFO:Connection is
+[2022-08-20 20:59:10,541]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 20:59:10,542]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 20:59:10,542]:root: INFO:{'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 20:59:11,135]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 20:59:11,135]:root: INFO:retriving values for logs
+[2022-08-20 20:59:11,173]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 20:59:11,174]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 20:59:11,174]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 20:59:11,177]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 20:59:11] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 20:59:37,946]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 20:59:37,946]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 20:59:38,089]:root: INFO:Connection is
+[2022-08-20 20:59:38,089]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 20:59:38,090]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 20:59:38,090]:root: INFO:{'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 20:59:38,814]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 20:59:38,814]:root: INFO:retriving values for logs
+[2022-08-20 20:59:38,851]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 20:59:38,852]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 20:59:38,852]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 20:59:38,852]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 20:59:38,854]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 20:59:38] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 21:00:04,449]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 21:00:04,449]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 21:00:04,529]:root: INFO:Connection is
+[2022-08-20 21:00:04,530]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 21:00:04,530]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 21:00:04,531]:root: INFO:{'id': 5, 'name': 'Rayn', 'salary': 10000}
+[2022-08-20 21:00:05,084]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 21:00:05,084]:root: INFO:retriving values for logs
+[2022-08-20 21:00:05,129]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 21:00:05,129]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 21:00:05,130]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 21:00:05,130]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 21:00:05,130]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 10000}
+[2022-08-20 21:00:05,132]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 21:00:05] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 21:00:40,492]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 21:00:40,493]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 21:00:40,800]:root: INFO:Connection is
+[2022-08-20 21:00:40,801]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 21:00:40,801]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 21:00:40,802]:root: INFO:{'id': 6, 'name': 'vikky', 'salary': 12000}
+[2022-08-20 21:00:41,425]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 21:00:41,426]:root: INFO:retriving values for logs
+[2022-08-20 21:00:41,463]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 21:00:41,464]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 21:00:41,464]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 21:00:41,464]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 21:00:41,464]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 10000}
+[2022-08-20 21:00:41,464]:root: INFO:{'_id': ObjectId('6300fe2099f17e05edfaecb3'), 'id': 6, 'name': 'vikky', 'salary': 12000}
+[2022-08-20 21:00:41,466]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 21:00:41] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 21:01:20,388]:root: DEBUG:This Method will insert records to Mongodb
+[2022-08-20 21:01:20,389]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 21:01:20,468]:root: INFO:Connection is
+[2022-08-20 21:01:20,469]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 21:01:20,470]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 21:01:20,471]:root: INFO:{'id': 7, 'name': 'kick', 'salary': 13000}
+[2022-08-20 21:01:20,882]:root: INFO:Inserstion to mongodb is successful
+[2022-08-20 21:01:20,882]:root: INFO:retriving values for logs
+[2022-08-20 21:01:20,919]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 21:01:20,919]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 21:01:20,920]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 21:01:20,920]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 21:01:20,920]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 10000}
+[2022-08-20 21:01:20,920]:root: INFO:{'_id': ObjectId('6300fe2099f17e05edfaecb3'), 'id': 6, 'name': 'vikky', 'salary': 12000}
+[2022-08-20 21:01:20,920]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 13000}
+[2022-08-20 21:01:20,921]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 21:01:20] "POST /mongo/insert HTTP/1.1" 200 -
+[2022-08-20 21:52:49,377]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 21:52:49,377]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 21:53:12,811]:root: DEBUG:This Method will update records to Mongodb
+[2022-08-20 21:53:12,811]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 21:53:13,166]:root: INFO:Connection is
+[2022-08-20 21:53:13,167]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 21:53:13,167]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 21:53:13,167]:root: INFO:{'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 21:53:13,985]:root: INFO:Updation of record to mongodb is successful
+[2022-08-20 21:53:13,986]:root: INFO:retriving values for logs
+[2022-08-20 21:53:14,054]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 21:53:14,055]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 21:53:14,055]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 21:53:14,055]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 21:53:14,055]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 10000}
+[2022-08-20 21:53:14,056]:root: INFO:{'_id': ObjectId('6300fe2099f17e05edfaecb3'), 'id': 6, 'name': 'vikky', 'salary': 12000}
+[2022-08-20 21:53:14,056]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 21:53:14,058]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 21:53:14] "POST /mongo/update HTTP/1.1" 200 -
+[2022-08-20 21:53:44,085]:root: DEBUG:This Method will update records to Mongodb
+[2022-08-20 21:53:44,085]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 21:53:44,181]:root: INFO:Connection is
+[2022-08-20 21:53:44,181]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 21:53:44,182]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 21:53:44,182]:root: INFO:{'id': 6, 'name': 'kick', 'salary': 15000}
+[2022-08-20 21:53:44,901]:root: INFO:Updation of record to mongodb is successful
+[2022-08-20 21:53:44,902]:root: INFO:retriving values for logs
+[2022-08-20 21:53:44,962]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 21:53:44,962]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 21:53:44,962]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 21:53:44,963]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 21:53:44,963]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 10000}
+[2022-08-20 21:53:44,963]:root: INFO:{'_id': ObjectId('6300fe2099f17e05edfaecb3'), 'id': 6, 'name': 'vikky', 'salary': 15000}
+[2022-08-20 21:53:44,963]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 21:53:44,964]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 21:53:44] "POST /mongo/update HTTP/1.1" 200 -
+[2022-08-20 21:57:38,353]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 21:57:38,353]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 21:57:53,874]:root: DEBUG:This Method will update records to Mongodb
+[2022-08-20 21:57:53,875]:root: DEBUG:Createing connection for mongodb an testing the connection
+[2022-08-20 21:57:54,094]:root: INFO:Connection is
+[2022-08-20 21:57:54,094]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 21:57:54,095]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 21:57:54,095]:root: INFO:{'id': 5, 'name': 'kick', 'salary': 15000}
+[2022-08-20 21:57:54,869]:root: INFO: Salary of Record has updated to 15000 having id 5 is successful
+[2022-08-20 21:57:54,869]:root: INFO:retriving values for logs
+[2022-08-20 21:57:54,927]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 21:57:54,927]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 21:57:54,927]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 21:57:54,928]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 21:57:54,928]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 15000}
+[2022-08-20 21:57:54,928]:root: INFO:{'_id': ObjectId('6300fe2099f17e05edfaecb3'), 'id': 6, 'name': 'vikky', 'salary': 15000}
+[2022-08-20 21:57:54,928]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 21:57:54,929]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 21:57:54] "POST /mongo/update HTTP/1.1" 200 -
+[2022-08-20 22:08:48,510]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:08:48] "[33mPOST /mongo/delet HTTP/1.1[0m" 404 -
+[2022-08-20 22:09:09,371]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 22:09:09,371]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 22:09:19,387]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:09:19] "[33mPOST /mongo/delet HTTP/1.1[0m" 404 -
+[2022-08-20 22:09:27,122]:root: DEBUG:This Method will delete records based on id in Mongodb
+[2022-08-20 22:09:27,122]:root: DEBUG:Creating connection for mongodb an testing the connection
+[2022-08-20 22:09:27,559]:root: INFO:Connection is
+[2022-08-20 22:09:27,559]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 22:09:27,559]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 22:09:27,559]:root: INFO:{'id': 6}
+[2022-08-20 22:09:28,318]:root: INFO: Record having id 6 is successfully Deleted
+[2022-08-20 22:09:28,319]:root: INFO:retrieving values for logs
+[2022-08-20 22:09:28,377]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 22:09:28,377]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 22:09:28,379]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 22:09:28,379]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 22:09:28,380]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 15000}
+[2022-08-20 22:09:28,380]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 22:09:28,382]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:09:28] "POST /mongo/delete HTTP/1.1" 200 -
+[2022-08-20 22:18:11,604]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 22:18:11,604]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 22:18:30,306]:root: DEBUG:This Method will fetch record based on id from Mongodb
+[2022-08-20 22:18:30,306]:root: DEBUG:Creating connection for mongodb an testing the connection
+[2022-08-20 22:18:30,572]:root: INFO:Connection is
+[2022-08-20 22:18:30,573]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 22:18:30,573]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 22:18:31,393]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 22:18:31,396]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 22:18:31,396]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 22:18:31,396]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 22:18:31,397]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 15000}
+[2022-08-20 22:18:31,397]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 22:18:31,465]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:18:31] "GET /mongo/fetch HTTP/1.1" 200 -
+[2022-08-20 22:18:59,021]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 22:18:59,021]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 22:19:05,815]:root: DEBUG:This Method will fetch record based on id from Mongodb
+[2022-08-20 22:19:05,816]:root: DEBUG:Creating connection for mongodb an testing the connection
+[2022-08-20 22:19:06,194]:root: INFO:Connection is
+[2022-08-20 22:19:06,195]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 22:19:06,195]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 22:19:07,169]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 22:19:07,169]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 22:19:07,169]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 22:19:07,169]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 22:19:07,170]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 15000}
+[2022-08-20 22:19:07,170]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 22:19:07,172]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:19:07] "GET /mongo/fetch HTTP/1.1" 200 -
+[2022-08-20 22:19:20,677]:root: DEBUG:This Method will fetch record based on id from Mongodb
+[2022-08-20 22:19:20,678]:root: DEBUG:Creating connection for mongodb an testing the connection
+[2022-08-20 22:19:20,762]:root: INFO:Connection is
+[2022-08-20 22:19:20,763]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 22:19:20,763]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 22:19:20,764]:root: INFO:{'id': 6}
+[2022-08-20 22:19:21,390]:root: INFO: Record having id/salary 6 is successfully fetched
+[2022-08-20 22:19:21,466]:root: INFO:retrieving values for logsNone
+[2022-08-20 22:19:21,536]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:19:21] "POST /mongo/fetch HTTP/1.1" 200 -
+[2022-08-20 22:20:17,537]:werkzeug: INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 22:20:17,537]:werkzeug: INFO:[33mPress CTRL+C to quit[0m
+[2022-08-20 22:20:32,235]:root: DEBUG:This Method will fetch record based on id from Mongodb
+[2022-08-20 22:20:32,235]:root: DEBUG:Creating connection for mongodb an testing the connection
+[2022-08-20 22:20:32,480]:root: INFO:Connection is
+[2022-08-20 22:20:32,480]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 22:20:32,480]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 22:20:32,481]:root: INFO:{'id': 7}
+[2022-08-20 22:20:33,571]:root: INFO: Record having id/salary 7 is successfully fetched
+[2022-08-20 22:20:33,571]:root: INFO:retrieving values for logs{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 22:20:33,573]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:20:33] "POST /mongo/fetch HTTP/1.1" 200 -
+[2022-08-20 22:21:19,707]:root: DEBUG:This Method will fetch record based on id from Mongodb
+[2022-08-20 22:21:19,707]:root: DEBUG:Creating connection for mongodb an testing the connection
+[2022-08-20 22:21:19,800]:root: INFO:Connection is
+[2022-08-20 22:21:19,800]:root: INFO:Database(MongoClient(host=['ac-9b8k6x0-shard-00-00.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-02.fxgp1cv.mongodb.net:27017', 'ac-9b8k6x0-shard-00-01.fxgp1cv.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-141vj7-shard-0', tls=True), 'test')
+[2022-08-20 22:21:19,800]:root: DEBUG:creating the new database and collection for database
+[2022-08-20 22:21:20,641]:root: INFO:{'_id': ObjectId('6300fd496b4ef45ee16b7b5b'), 'id': 1, 'name': 'murali', 'salary': 5000}
+[2022-08-20 22:21:20,642]:root: INFO:{'_id': ObjectId('6300fd776b4ef45ee16b7b5d'), 'id': 2, 'name': 'test', 'salary': 50000}
+[2022-08-20 22:21:20,642]:root: INFO:{'_id': ObjectId('6300fdc699f17e05edfaecad'), 'id': 3, 'name': 'sathy', 'salary': 8000}
+[2022-08-20 22:21:20,642]:root: INFO:{'_id': ObjectId('6300fde299f17e05edfaecaf'), 'id': 4, 'name': 'rakkama', 'salary': 9000}
+[2022-08-20 22:21:20,642]:root: INFO:{'_id': ObjectId('6300fdfc99f17e05edfaecb1'), 'id': 5, 'name': 'Rayn', 'salary': 15000}
+[2022-08-20 22:21:20,642]:root: INFO:{'_id': ObjectId('6300fe4899f17e05edfaecb5'), 'id': 7, 'name': 'kick', 'salary': 1000}
+[2022-08-20 22:21:20,644]:werkzeug: INFO:127.0.0.1 - - [20/Aug/2022 22:21:20] "GET /mongo/fetch HTTP/1.1" 200 -

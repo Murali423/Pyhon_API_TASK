@@ -239,3 +239,4 @@ mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your
 [2022-08-20 19:51:01,332]: INFO:root:Connection to mysql is successful
 [2022-08-20 19:51:01,352]: INFO:root:(6, 'DL1', 'Ineuron')
 [2022-08-20 19:51:01,362]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:51:01] "POST /abc/fetch HTTP/1.1" 200 -
+[2022-08-20 20:55:31,840]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 20:55:31] "[33mPOST /mongo/insert HTTP/1.1[0m" 404 -
