@@ -1,0 +1,241 @@
+[2022-08-20 17:21:33,391]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:21:33,392]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:22:19,939]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:22:19,939]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:23:28,192]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:23:28,192]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:23:51,704]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:23:51,704]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:27:15,373]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:27:15,374]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:28:03,475]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:28:03,476]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:29:34,533]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:29:34,533]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:35:23,090]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:35:23,090]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:37:11,348]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:37:11,349]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:39:10,810]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:39:10,811]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:40:32,906]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:40:32,907]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:43:58,902]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:43:58,903]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:44:06,106]: INFO:root:This method to insert the data into the mysql
+[2022-08-20 17:44:06,108]: INFO:root:Creating the connection to mysql database
+[2022-08-20 17:44:06,901]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x0000017B8DBB7E80>
+[2022-08-20 17:44:06,902]: INFO:root:Connection to mysql is successful
+[2022-08-20 17:44:06,913]: ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,Region,Manager) values(4,'AP','iNeuron')' at line 1
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 555, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,Region,Manager) values(4,'AP','iNeuron')' at line 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\PythonAPI1\Task1.py", line 27, in insert
+    cursor.execute(quary)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 276, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 563, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index,Region,Manager) values(4,'AP','iNeuron')' at line 1
+[2022-08-20 17:44:06,980]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:44:06] "POST /abc/insert HTTP/1.1" 200 -
+[2022-08-20 17:46:25,312]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:46:25,312]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:46:29,874]: INFO:root:This method to insert the data into the mysql
+[2022-08-20 17:46:29,874]: INFO:root:Creating the connection to mysql database
+[2022-08-20 17:46:29,983]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001C45CBF7E50>
+[2022-08-20 17:46:29,983]: INFO:root:Connection to mysql is successful
+[2022-08-20 17:46:29,985]: ERROR:root:name 'quary' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\PythonAPI1\Task1.py", line 27, in insert
+    cursor.execute(quary)
+NameError: name 'quary' is not defined
+[2022-08-20 17:46:29,988]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:46:29] "POST /abc/insert HTTP/1.1" 200 -
+[2022-08-20 17:46:50,992]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 17:46:50,992]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 17:46:55,202]: INFO:root:This method to insert the data into the mysql
+[2022-08-20 17:46:55,202]: INFO:root:Creating the connection to mysql database
+[2022-08-20 17:46:55,303]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x0000028EF1047E20>
+[2022-08-20 17:46:55,304]: INFO:root:Connection to mysql is successful
+[2022-08-20 17:46:55,306]: ERROR:root:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inset into users(index,Region,Manager) values(4,'AP','iNeuron')' at line 1
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 555, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inset into users(index,Region,Manager) values(4,'AP','iNeuron')' at line 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\PythonAPI1\Task1.py", line 27, in insert
+    cursor.execute(q)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 276, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 563, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inset into users(index,Region,Manager) values(4,'AP','iNeuron')' at line 1
+[2022-08-20 17:46:55,315]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 17:46:55] "POST /abc/insert HTTP/1.1" 200 -
+[2022-08-20 18:30:36,155]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 18:30:36,159]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 18:30:44,914]: INFO:root:This method to insert the data into the mysql
+[2022-08-20 18:30:44,914]: INFO:root:Creating the connection to mysql database
+[2022-08-20 18:30:45,115]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001FE8CF8C2B0>
+[2022-08-20 18:30:45,115]: INFO:root:Connection to mysql is successful
+[2022-08-20 18:30:45,156]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 18:30:45,156]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 18:30:45,156]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 18:30:45,157]: INFO:root:(3, 'West', 'William')
+[2022-08-20 18:30:45,157]: INFO:root:(4, 'AP', 'ineuron')
+[2022-08-20 18:30:45,157]: INFO:root:(4, 'AP', 'iNeuron')
+[2022-08-20 18:30:45,157]: INFO:root:(5, 'KP', 'Bejoy')
+[2022-08-20 18:30:45,159]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:30:45] "POST /abc/insert HTTP/1.1" 200 -
+[2022-08-20 18:48:06,566]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 18:48:06,569]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 18:49:11,900]: DEBUG:root:This method will Update the data into the mysql
+[2022-08-20 18:49:11,901]: INFO:root:Creating the connection to mysql database
+[2022-08-20 18:49:12,421]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001B1371A1690>
+[2022-08-20 18:49:12,422]: INFO:root:Connection to mysql is successful
+[2022-08-20 18:49:12,422]: INFO:root:Before updating the value
+[2022-08-20 18:49:12,437]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 18:49:12,438]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 18:49:12,438]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 18:49:12,438]: INFO:root:(3, 'West', 'William')
+[2022-08-20 18:49:12,439]: INFO:root:(4, 'UP', 'ineuron')
+[2022-08-20 18:49:12,439]: INFO:root:(4, 'UP', 'iNeuron')
+[2022-08-20 18:49:12,439]: INFO:root:(5, 'KP', 'Bejoy')
+[2022-08-20 18:49:12,501]: INFO:root:After updating the value
+[2022-08-20 18:49:12,501]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 18:49:12,501]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 18:49:12,501]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 18:49:12,502]: INFO:root:(3, 'West', 'William')
+[2022-08-20 18:49:12,502]: INFO:root:(4, 'UP', 'ineuron')
+[2022-08-20 18:49:12,502]: INFO:root:(4, 'UP', 'iNeuron')
+[2022-08-20 18:49:12,502]: INFO:root:(5, 'Karnataka', 'Bejoy')
+[2022-08-20 18:49:12,503]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 18:49:12] "POST /abc/update HTTP/1.1" 200 -
+[2022-08-20 19:04:33,297]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:04:33,297]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:06:26,858]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:06:26] "[31m[1mPOST /abc/delete_rec HTTP/1.1[0m" 405 -
+[2022-08-20 19:07:47,314]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:07:47] "[31m[1mPOST /abc/delete_rec HTTP/1.1[0m" 405 -
+[2022-08-20 19:07:59,912]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:07:59,913]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:08:28,682]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:08:28,683]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:08:34,170]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:08:34] "[31m[1mPOST /abc/delete HTTP/1.1[0m" 405 -
+[2022-08-20 19:10:12,015]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:10:12,015]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:10:16,365]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:10:16] "[31m[1mPOST /abc/delete HTTP/1.1[0m" 405 -
+[2022-08-20 19:19:06,473]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:19:06,473]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:19:31,084]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:19:31] "[31m[1mPOST /abc/delete HTTP/1.1[0m" 405 -
+[2022-08-20 19:20:27,498]: DEBUG:root:This method will Update the data into the mysql
+[2022-08-20 19:20:27,498]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:20:27,732]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x00000208095BE740>
+[2022-08-20 19:20:27,732]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:20:27,732]: INFO:root:Before updating the value
+[2022-08-20 19:20:27,732]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 19:20:27,732]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 19:20:27,732]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 19:20:27,732]: INFO:root:(3, 'West', 'William')
+[2022-08-20 19:20:27,732]: INFO:root:(4, 'UP', 'ineuron')
+[2022-08-20 19:20:27,732]: INFO:root:(4, 'UP', 'iNeuron')
+[2022-08-20 19:20:27,732]: INFO:root:(5, 'Karnataka', 'Bejoy')
+[2022-08-20 19:20:27,732]: INFO:root:(6, 'MP', 'Ineuron')
+[2022-08-20 19:20:27,732]: INFO:root:(7, 'GJ', 'Ineuron')
+[2022-08-20 19:20:27,755]: INFO:root:After updating the value
+[2022-08-20 19:20:27,755]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 19:20:27,755]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 19:20:27,755]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 19:20:27,755]: INFO:root:(3, 'West', 'William')
+[2022-08-20 19:20:27,755]: INFO:root:(4, 'DL1', 'ineuron')
+[2022-08-20 19:20:27,755]: INFO:root:(4, 'DL1', 'iNeuron')
+[2022-08-20 19:20:27,755]: INFO:root:(5, 'Karnataka', 'Bejoy')
+[2022-08-20 19:20:27,755]: INFO:root:(6, 'DL1', 'Ineuron')
+[2022-08-20 19:20:27,755]: INFO:root:(7, 'DL1', 'Ineuron')
+[2022-08-20 19:20:27,755]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:20:27] "POST /abc/update HTTP/1.1" 200 -
+[2022-08-20 19:20:41,923]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:20:41] "[31m[1mPOST /abc/delete HTTP/1.1[0m" 405 -
+[2022-08-20 19:21:53,427]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:21:53,427]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:22:01,069]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:22:01,165]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x0000015B5932E860>
+[2022-08-20 19:22:01,165]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:22:01,165]: INFO:root:Before deleting the value
+[2022-08-20 19:22:01,173]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 19:22:01,173]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 19:22:01,173]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 19:22:01,173]: INFO:root:(3, 'West', 'William')
+[2022-08-20 19:22:01,173]: INFO:root:(4, 'DL1', 'ineuron')
+[2022-08-20 19:22:01,173]: INFO:root:(4, 'DL1', 'iNeuron')
+[2022-08-20 19:22:01,173]: INFO:root:(5, 'Karnataka', 'Bejoy')
+[2022-08-20 19:22:01,173]: INFO:root:(6, 'DL1', 'Ineuron')
+[2022-08-20 19:22:01,173]: INFO:root:(7, 'DL1', 'Ineuron')
+[2022-08-20 19:22:01,187]: INFO:root:After deleting the value
+[2022-08-20 19:22:01,187]: INFO:root:(0, 'Central', 'Chris')
+[2022-08-20 19:22:01,187]: INFO:root:(1, 'East', 'Erin')
+[2022-08-20 19:22:01,187]: INFO:root:(2, 'South', 'Sam')
+[2022-08-20 19:22:01,187]: INFO:root:(3, 'West', 'William')
+[2022-08-20 19:22:01,187]: INFO:root:(4, 'DL1', 'ineuron')
+[2022-08-20 19:22:01,187]: INFO:root:(4, 'DL1', 'iNeuron')
+[2022-08-20 19:22:01,187]: INFO:root:(5, 'Karnataka', 'Bejoy')
+[2022-08-20 19:22:01,187]: INFO:root:(6, 'DL1', 'Ineuron')
+[2022-08-20 19:22:01,197]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:22:01] "POST /abc/delete HTTP/1.1" 200 -
+[2022-08-20 19:39:34,204]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:39:34,204]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:40:01,243]: DEBUG:root:This Method is used to fetch all records
+[2022-08-20 19:40:01,243]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:40:01,704]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001EC6C1281F0>
+[2022-08-20 19:40:01,704]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:40:01,724]: INFO:root:[(0, 'Central', 'Chris'), (1, 'East', 'Erin'), (2, 'South', 'Sam'), (3, 'West', 'William'), (4, 'DL1', 'ineuron'), (4, 'DL1', 'iNeuron'), (5, 'Karnataka', 'Bejoy'), (6, 'DL1', 'Ineuron')]
+[2022-08-20 19:40:01,724]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:40:01] "GET /abc/fetch HTTP/1.1" 200 -
+[2022-08-20 19:40:18,360]: DEBUG:root:This Method is used to fetch records based on id
+[2022-08-20 19:40:18,360]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:40:19,064]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001EC6C1280A0>
+[2022-08-20 19:40:19,064]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:40:19,196]: INFO:root:None
+[2022-08-20 19:40:19,196]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:40:19] "POST /abc/fetch HTTP/1.1" 200 -
+[2022-08-20 19:40:32,774]: DEBUG:root:This Method is used to fetch records based on id
+[2022-08-20 19:40:32,774]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:40:32,794]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001EC6C1280D0>
+[2022-08-20 19:40:32,794]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:40:32,794]: INFO:root:(6, 'DL1', 'Ineuron')
+[2022-08-20 19:40:32,794]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:40:32] "POST /abc/fetch HTTP/1.1" 200 -
+[2022-08-20 19:43:32,608]: DEBUG:root:This Method is used to fetch all records
+[2022-08-20 19:43:32,608]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:43:32,634]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x000001EC6C128190>
+[2022-08-20 19:43:32,643]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:43:32,643]: INFO:root:[(0, 'Central', 'Chris'), (1, 'East', 'Erin'), (2, 'South', 'Sam'), (3, 'West', 'William'), (4, 'DL1', 'ineuron'), (4, 'DL1', 'iNeuron'), (5, 'Karnataka', 'Bejoy'), (6, 'DL1', 'Ineuron')]
+[2022-08-20 19:43:32,643]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:43:32] "GET /abc/fetch HTTP/1.1" 200 -
+[2022-08-20 19:50:47,822]: INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2022-08-20 19:50:47,831]: INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[2022-08-20 19:51:00,607]: DEBUG:root:This Method is used to fetch records based on id
+[2022-08-20 19:51:00,607]: INFO:root:Creating the connection to mysql database
+[2022-08-20 19:51:01,332]: INFO:root:<mysql.connector.connection_cext.CMySQLConnection object at 0x0000027D11D7C280>
+[2022-08-20 19:51:01,332]: INFO:root:Connection to mysql is successful
+[2022-08-20 19:51:01,352]: INFO:root:(6, 'DL1', 'Ineuron')
+[2022-08-20 19:51:01,362]: INFO:werkzeug:127.0.0.1 - - [20/Aug/2022 19:51:01] "POST /abc/fetch HTTP/1.1" 200 -
